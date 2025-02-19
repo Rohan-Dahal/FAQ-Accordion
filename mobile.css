@@ -1,0 +1,41 @@
+@media (max-width:992px){
+    body{
+        background-image: url(background-pattern-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    main{
+        width: 95%;
+       
+        margin-top: 200px;
+    }
+    .accordion{
+        width: 100%;
+    }
+    button{
+        height: 30px;
+        width: 30px;
+        margin-left: 30px;
+    }
+    .minus,.plus{
+        height: 30px;
+        width: 30px;
+        
+    }
+    .answer-active,.answer-hidden{
+        width: 86%;
+    }
+}
+@media(max-width:750px){
+     main{
+        margin-top:-70px;
+     }
+}
+@media(max-width:380px){
+    body{
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+}
+
+
